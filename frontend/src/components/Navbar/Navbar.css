@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  /* list items comes one by one below becz dipslay flex apply to only img ul and btn to make them horizontal use flex */
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+.menu {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  font-size: 15px;
+}
+.btn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 10%);
+  font-size: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

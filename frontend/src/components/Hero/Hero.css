@@ -1,0 +1,29 @@
+.hero img {
+  width: 3in; /* 2 inches wide */
+  height: 3in; /* 2 inches tall */
+  border: 1px solid #000; /* Optional: border to visualize the photo size */
+  object-fit: cover; /* Ensures the image covers the specified area */
+  border-radius: 50%; /* Rounded corners, adjust as needed */
+}
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.hero-action {
+  display: flex;
+  gap: 40px;
+}
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 60px;
+  font-weight: 600;
+}
+.hero h1 span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-backdrop-clip: text;
+  -webkit-text-fill-color: transparent;
+}
