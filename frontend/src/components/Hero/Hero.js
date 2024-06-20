@@ -11,9 +11,9 @@ const Hero = () => {
         India
       </h1>
       <p>
-        <span>I'm kartik Sharma,</span> recently completed my Master's in
-        computers apllication and having a good knowledge looking forward to
-        join a decent company
+        I'm kartik Sharma, recently completed my Master's in computers
+        apllication and having a good knowledge looking forward to join a decent
+        company
       </p>
       <div className="hero-action">
         {/* genrally isnside div img,h1 tags  but here only div and inside content*/}
