@@ -12,6 +12,7 @@ const MyWork = () => {
       </div>
       <div className="mywork-container">
         {mywork_data.map((work, index) => {
+          // here also can proviudd div but singlke image so no need
           return <img key={index} src={work.w_img} alt="work-image"></img>;
         })}
       </div>
