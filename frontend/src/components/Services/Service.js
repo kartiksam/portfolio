@@ -10,7 +10,7 @@ const Service = () => {
         <h1>My Services</h1>
         <img src={theme_pattern} alt="theme-pattern" />
       </div>
-      <div className="services-container">
+      <div id="services" className="services-container">
         {
           // service data is the array of objects apply flex to conatiner the all willbe horizontal because all will be div many compnents
           Services_Data.map((ser, index) => {

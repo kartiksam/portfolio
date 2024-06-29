@@ -5,11 +5,25 @@
   justify-content: space-between;
   margin: 20px 170px;
 }
+/* for all menus */
 .menu {
   display: flex;
   gap: 60px;
   list-style: none;
   font-size: 15px;
+}
+.menu p {
+  cursor: pointer;
+}
+/* for img and text */
+.menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.menu li img {
+  display: flex;
+  margin: auto;
 }
 .btn {
   padding: 20px 40px;
@@ -23,3 +37,8 @@
 .btn:hover {
   transform: scale(1.05);
 }
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+/* routing can be done using k=link to or scrolling */
