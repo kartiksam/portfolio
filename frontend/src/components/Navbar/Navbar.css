@@ -41,4 +41,51 @@
   text-decoration: none;
   color: white;
 }
+.nav-mob-close {
+  display: none;
+}
+.nav-mob-open {
+  display: none;
+}
 /* routing can be done using k=link to or scrolling */
+@media (max-width: 768px) {
+  .navbar {
+    margin: 20px 50px;
+  }
+  .btn {
+    display: none;
+  }
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 30px;
+    cursor: pointer;
+  }
+  .nav-mob-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    cursor: pointer;
+  }
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    gap: 30px;
+    background-color: #1f0016;
+    width: 350px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+  }
+  .menu li {
+    font-size: 30px;
+    padding-left: 0;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
