@@ -140,4 +140,12 @@
   .about-achievment {
     gap: 10px;
   }
+  .about-achievment h1 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .about-achievment p {
+    text-align: center;
+    font-size: 16px;
+  }
 }
